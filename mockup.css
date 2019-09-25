@@ -1,0 +1,73 @@
+h2{
+	font-family: sans-serif;
+}
+body{
+	background: url('bgmockup.jpg');
+	background-size: 500px auto; 
+	background-attachment: scroll;
+    font-family: 'Rockwell', sans-serif;	
+ }
+ h2{
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Chiller', fantasy;
+    color: orange;
+    font-size: 40px;
+    margin: 10px;
+ }
+form{
+    margin-top: 100px;
+    width: 350px;
+    height: auto;
+    border: 1px solid black;
+    background: rgba(0,0,255,0.2);
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.text1{
+    background-color: white;
+    color: black;
+    width: 160px;
+    height: 25px;
+    border-radius: 15px;
+    font-weight: bold;
+
+
+}
+
+.text1::-webkit-input-placeholder{
+    color: black;
+
+}
+
+.text2::-webkit-input-placeholder{
+    color: white;
+
+}
+
+.text2{
+    background-color: gray;
+    color :blue;
+    width: 320px;
+    height: 25px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 1px solid gray;
+
+}
+
+.submit{
+    width: 320px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-family: 'Chiller', fantasy;
+    border: 0px;
+    font-size: 30px;
+}
+
+.placeholder{
+    color: blue;
+}
